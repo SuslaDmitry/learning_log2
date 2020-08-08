@@ -25,7 +25,7 @@ SECRET_KEY = '2b^-=mnsk@wjz09_px$#9a%x=m&aoobv2md1tz(8*!gs-j^5=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://upbeat-aura-285516.nw.r.appspot.com/']
+ALLOWED_HOSTS = ['upbeat-aura-285516.appspot.com']
 
 
 # Application definition
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'learning_log.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dima',
         'USER': 'dima',
         'PASSWORD': 'Qwerty*123',
         'HOST': '/cloudsql/upbeat-aura-285516:europe-west2:sddb',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 
