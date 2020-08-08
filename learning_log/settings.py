@@ -25,7 +25,7 @@ SECRET_KEY = '2b^-=mnsk@wjz09_px$#9a%x=m&aoobv2md1tz(8*!gs-j^5=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['upbeat-aura-285516.appspot.com']
+ALLOWED_HOSTS = ['adept-elevator-285518.appspot.com']
 
 
 # Application definition
