@@ -1,3 +1,3 @@
-from .wsgi import application
+from llgoogleapp.wsgi import application
 
 app = application
